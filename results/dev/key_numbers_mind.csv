@@ -1,0 +1,37 @@
+key,value,definition,sample,dataset,source_file
+users_sampled,50000.0,Users in the random sample,"all 50,000 users","MIND-small dev, Nov 15, 2019",user_metrics.csv
+popularity_share_top10pct_shown,0.9225,"Share of all impressions going to the top 10% of articles shown at least once (537 of 5,369 articles)","all 50,000 users","MIND-small dev, Nov 15, 2019",-
+popularity_share_top10pct_catalog,0.9995,"Same, over the whole 42,416-article catalog (never-shown = 0). Do not headline: inflated by old history-only articles","all 50,000 users","MIND-small dev, Nov 15, 2019",-
+popularity_share_top10pct_clicked,0.8585,"Share of all clicks going to the top 10% of the 2,212 clicked articles","all 50,000 users","MIND-small dev, Nov 15, 2019",-
+gini_shown,0.9277,"Gini of impressions across the 5,369 articles shown at least once","all 50,000 users","MIND-small dev, Nov 15, 2019",-
+gini_clicked,0.8953,"Gini of clicks across the 2,212 articles clicked at least once","all 50,000 users","MIND-small dev, Nov 15, 2019",-
+catalog_coverage,0.1266,Share of news.tsv articles shown at least once (news.tsv includes history-only articles),"all 50,000 users","MIND-small dev, Nov 15, 2019",category_summary.csv
+entropy_feed_matched_median,1.6317,"Median feed diversity (bits), feed sampled down to each user's click count","13,388 users with 3+ clicks","MIND-small dev, Nov 15, 2019",user_metrics.csv
+entropy_clicked_median,1.585,Median click diversity (bits),"13,388 users with 3+ clicks","MIND-small dev, Nov 15, 2019",user_metrics.csv
+share_clicks_narrower_than_feed,0.5843,Share of users whose clicks are less diverse than their size-matched feed,"13,388 users with 3+ clicks","MIND-small dev, Nov 15, 2019",user_metrics.csv
+entropy_history_matched_median,1.4215,"Median reading-history diversity (bits), sampled down to each user's click count","12,390 users with 3+ clicks and enough history","MIND-small dev, Nov 15, 2019",user_metrics.csv
+boost_median,1.0689,Median ratio: favourite category's share of the user's feed / its platform-wide share,"32,109 users with 10+ articles read","MIND-small dev, Nov 15, 2019",user_metrics.csv (feed_top_lift)
+share_users_boosted,0.5661,Share of users whose feed over-represents their favourite category,"32,109 users with 10+ articles read","MIND-small dev, Nov 15, 2019",user_metrics.csv
+share_users_favourite_never_shown,0.0486,Share of users never shown their favourite category,"32,109 users with 10+ articles read","MIND-small dev, Nov 15, 2019",user_metrics.csv
+boost_median_autos,1.5225,Per-user median boost for autos readers (pooled ratio: 1.91),746 autos readers with 10+ articles read,"MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_foodanddrink,1.3491,Per-user median boost for foodanddrink readers (pooled ratio: 1.55),"1,165 foodanddrink readers with 10+ articles read","MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_sports,1.2633,Per-user median boost for sports readers (pooled ratio: 1.20),"6,111 sports readers with 10+ articles read","MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_health,1.2197,Per-user median boost for health readers (pooled ratio: 1.70),839 health readers with 10+ articles read,"MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_movies,1.2045,"Per-user median boost for movies readers (pooled ratio: 1.51) - small group, do not headline",200 movies readers with 10+ articles read,"MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_tv,1.1918,Per-user median boost for tv readers (pooled ratio: 1.27),"1,575 tv readers with 10+ articles read","MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_travel,1.1605,"Per-user median boost for travel readers (pooled ratio: 1.59) - small group, do not headline",216 travel readers with 10+ articles read,"MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_lifestyle,1.151,Per-user median boost for lifestyle readers (pooled ratio: 1.07),"2,970 lifestyle readers with 10+ articles read","MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_finance,1.0977,Per-user median boost for finance readers (pooled ratio: 1.33),901 finance readers with 10+ articles read,"MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_entertainment,1.0706,Per-user median boost for entertainment readers (pooled ratio: 1.27),440 entertainment readers with 10+ articles read,"MIND-small dev, Nov 15, 2019",group_boost.csv
+boost_median_news,0.9654,Per-user median boost for news readers (pooled ratio: 1.10),"16,680 news readers with 10+ articles read","MIND-small dev, Nov 15, 2019",group_boost.csv
+history_entropy_k10_autos,2.2267,"Median reading-history diversity of autos readers (bits, 10-article samples)",746 autos readers,"MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_entertainment,2.3475,"Median reading-history diversity of entertainment readers (bits, 10-article samples)",440 entertainment readers,"MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_finance,2.2527,"Median reading-history diversity of finance readers (bits, 10-article samples)",901 finance readers,"MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_foodanddrink,2.2515,"Median reading-history diversity of foodanddrink readers (bits, 10-article samples)","1,165 foodanddrink readers","MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_health,2.2952,"Median reading-history diversity of health readers (bits, 10-article samples)",839 health readers,"MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_lifestyle,2.2897,"Median reading-history diversity of lifestyle readers (bits, 10-article samples)","2,970 lifestyle readers","MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_movies,2.4506,"Median reading-history diversity of movies readers (bits, 10-article samples)",200 movies readers,"MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_news,2.0962,"Median reading-history diversity of news readers (bits, 10-article samples)","16,680 news readers","MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_sports,2.0486,"Median reading-history diversity of sports readers (bits, 10-article samples)","6,111 sports readers","MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_travel,2.3494,"Median reading-history diversity of travel readers (bits, 10-article samples)",216 travel readers,"MIND-small dev, Nov 15, 2019",user_metrics.csv
+history_entropy_k10_tv,2.3451,"Median reading-history diversity of tv readers (bits, 10-article samples)","1,575 tv readers","MIND-small dev, Nov 15, 2019",user_metrics.csv

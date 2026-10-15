@@ -1,0 +1,26 @@
+key,value,definition,sample,dataset,source_file
+dq_news_rows,51282.0,Data quality: news rows,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_duplicate_news_ids,0.0,Data quality: duplicate news ids,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_missing_category,0.0,Data quality: missing category,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_missing_abstract,2666.0,Data quality: missing abstract,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_behavior_rows,156965.0,Data quality: behavior rows,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_duplicate_impression_ids,0.0,Data quality: duplicate impression ids,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_users,50000.0,Data quality: users,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_empty_history,3238.0,Data quality: empty history,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_slots,5843444.0,Data quality: slots,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_clicks,236344.0,Data quality: clicks,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_bad_click_labels,0.0,Data quality: bad click labels,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_slots_missing_from_news,0.0,Data quality: slots missing from news,whole split,"MIND-small train, Nov 9-14, 2019",-
+dq_history_articles_missing_from_news,0.0,Data quality: history articles missing from news,whole split,"MIND-small train, Nov 9-14, 2019",-
+ctr_overall,0.0404,Clicks / shown slots,whole split,"MIND-small train, Nov 9-14, 2019",-
+entropy_history_mean_raw,2.1996,"Mean diversity of the click history (bits), unmatched (as in phase1_diversity.py)","153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+entropy_impression_mean_raw,2.5443,"Mean diversity of the shown list (bits), unmatched","153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+entropy_history_mean_matched,1.9594,"Mean history diversity, both sides sampled to the smaller size","153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+entropy_impression_mean_matched,2.213,"Mean shown-list diversity, both sides sampled to the smaller size","153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+share_impressions_broader_than_history,0.6732,Share of impressions more diverse than the user's history (size-matched),"153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+share_slots_in_history_categories,0.7026,Mean share of shown slots in a category the user has clicked before,"153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+baseline_share_if_unpersonalized,0.6377,Same share if the feed followed the platform-wide category mix (no personalization),"153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+share_impressions_above_baseline,0.7254,Share of impressions that lean towards the user's history more than the baseline,"153,727 impressions with a reading history (all users)","MIND-small train, Nov 9-14, 2019",-
+ctr_familiar,0.0455,Click rate on slots in a category already in the history,"4,078,544 slots","MIND-small train, Nov 9-14, 2019",ctr_familiar_vs_new.csv
+ctr_new,0.0281,Click rate on slots in a category not in the history,"1,644,458 slots","MIND-small train, Nov 9-14, 2019",ctr_familiar_vs_new.csv
+categories_familiar_ctr_higher,14.0,Categories (of 14 with 500+ slots on both sides) where familiar slots are clicked more,14 categories,"MIND-small train, Nov 9-14, 2019",ctr_familiar_vs_new.csv

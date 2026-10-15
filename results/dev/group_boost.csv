@@ -1,0 +1,12 @@
+reader_group,users,boost_per_user_median,boost_per_user_mean,boost_pooled
+autos,746,1.522,1.642,1.906
+foodanddrink,1165,1.349,1.378,1.548
+sports,6111,1.263,1.408,1.199
+health,839,1.22,1.353,1.701
+movies,200,1.204,1.301,1.505
+tv,1575,1.192,1.273,1.265
+travel,216,1.161,1.167,1.591
+lifestyle,2970,1.151,1.284,1.07
+finance,901,1.098,1.179,1.331
+entertainment,440,1.071,1.12,1.275
+news,16680,0.965,1.112,1.104

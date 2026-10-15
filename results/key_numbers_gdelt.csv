@@ -1,0 +1,21 @@
+key,value,definition,sample,dataset,source_file
+rows_no_country_share,0.0262,Share of event rows dropped: no country code,"4,575,423 event rows","GDELT 1.0 daily events, 20191016-20191114",-
+rows_unknown_code_share,0.0006,Share of event rows dropped: code not in GDELT's FIPS lookup,"4,575,423 event rows","GDELT 1.0 daily events, 20191016-20191114",-
+top10_countries_share_articles,0.6701,Share of all articles about the 10 most-covered countries,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+top10pct_countries_share_articles,0.8275,Share of all articles about the top 10% of countries/territories (25 of 247),"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+bottom_half_share_articles,0.014,Share of all articles about the least-covered half (123) of countries/territories,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+gini_countries_articles,0.8835,Gini of articles across countries/territories,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+top10_countries_share_events,0.6107,Share of all events about the 10 most-covered countries,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+top10pct_countries_share_events,0.7792,Share of all events about the top 10% of countries/territories (25 of 247),"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+bottom_half_share_events,0.0225,Share of all events about the least-covered half (123) of countries/territories,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+gini_countries_events,0.8516,Gini of events across countries/territories,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+us_article_share,0.3792,United States' share of all articles,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_country_coverage.csv
+articles_matched_to_population,0.9962,Share of all articles whose country matched a 2019 World Bank population,"4,452,775 events with a known location, 247 countries/territories","GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+top10_countries_population_share,0.4579,Share of world population (matched countries) living in the 10 most-covered countries,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+population_share_in_undercovered,0.7042,Share of world population living in countries (1M+ people) that get less than half their population share of coverage,160 countries with 1M+ people,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+coverage_ratio_US,8.9369,United States: coverage share / population share,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+coverage_ratio_IN,0.1907,India: coverage share / population share,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+coverage_ratio_CH,0.1548,China: coverage share / population share,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+coverage_ratio_NI,0.4727,Nigeria: coverage share / population share,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+coverage_ratio_ID,0.0938,Indonesia: coverage share / population share,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
+coverage_ratio_BR,0.1399,Brazil: coverage share / population share,214 matched countries,"GDELT 1.0 daily events, 20191016-20191114",gdelt_population_ratio.csv
